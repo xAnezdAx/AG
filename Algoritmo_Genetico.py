@@ -532,7 +532,7 @@ class GeneticAlgorit:
 
 if __name__ == "__main__":
     # Nombre del archivo
-    directorio = 'D:/UNAL/Semestre 7/Sistemas sinteligentes computacionales/1 Todo lo necesario entrega de proyecto/Para entregar/ejecuciones'
+    directorio = 'D:/UNAL/Semestre 7/Sistemas sinteligentes computacionales/1 Todo lo necesario entrega de proyecto/Para entregar/AG/ejecuciones'
                 
     #formato de tiempo dia_mes_año_hora_minutos
     tiempo_actual = datetime.now().strftime('%d_%m_%Y_%H_%M')
@@ -720,7 +720,6 @@ if __name__ == "__main__":
     print("\n Porcentaje de convergencia: \n", valConvergencia)
     print("\n\n")
     ga.ejecutar()
-    ga.resumenGeneral()
     
     # Restaura las salidas originales
     sys.stdout = salida_original

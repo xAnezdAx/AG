@@ -1,0 +1,1716 @@
+
+ Funcion Objetivo: 
+ ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+
+ Restricciones: 
+ False
+
+ Restricciones: 
+ None
+
+ informacion Variables de decision: 
+ {'x': [5.0, -5.0, 0], 'y': [5.0, -5.0, 0]}
+
+ Poblacion: 
+ 4
+
+ Probabilidad de cruce: 
+ 0.8
+
+ Probabilidad de mutacion: 
+ 0.2
+
+ Generaciones: 
+ 15
+
+ Maximizar o minimizar: 
+ True
+funcion objetivo a maximizar
+
+
+ Elitismo: 
+ True
+
+ convergencia: 
+ False
+
+ Porcentaje de convergencia: 
+ 0
+
+
+
+Poblacion inicial Aleatoria: 
+ [[1 0 1 0 0 0 0 0]
+ [1 1 1 1 0 1 1 0]
+ [1 1 1 0 1 0 1 1]
+ [1 1 0 0 1 1 1 1]]
+Poblacion inicial verificada con restricciones: 
+ [[1 0 1 0 0 0 0 0]
+ [1 1 1 1 0 1 1 0]
+ [1 1 1 0 1 0 1 1]
+ [1 1 0 0 1 1 1 1]]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 2.0, 'y': -5.0}
+Resultado de la evaluación de fitness: 37.0000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -1.0}
+Resultado de la evaluación de fitness: 116.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 250.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 436.000000000000
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 0 1 0 0 0 0 0] | {'x': 2.0, 'y': -5.0} |        37.0        |        37.0        |    0.044     |   0.044   |     True    |
+|     2     | [1 1 1 1 0 1 1 0] | {'x': 2.0, 'y': -5.0} | 116.00000000000001 | 116.00000000000001 |    0.138     |   0.182   |     True    |
+|     3     | [1 1 1 0 1 0 1 1] | {'x': 5.0, 'y': -1.0} | 250.00000000000003 | 250.00000000000003 |    0.298     |   0.480   |     True    |
+|     4     | [1 1 0 0 1 1 1 1] | {'x': 5.0, 'y': -1.0} |       436.0        |       436.0        |    0.520     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+##################################################################
+
+ Iteracion  0 
+
+Poblacion de la Iteracion  0 
+ [[1 0 1 0 0 0 0 0]
+ [1 1 1 1 0 1 1 0]
+ [1 1 1 0 1 0 1 1]
+ [1 1 0 0 1 1 1 1]]
+El mejor individuo es: [1 1 0 0 1 1 1 1]
+El mejor fitness es: 436.0
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 0 1 0 1 1]
+Padre 2:  [1 1 1 0 1 0 1 1]
+
+Menor 0.8 que  0.8149687119749728 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 0 1 0 1 1]   |  [1 1 1 0 1 0 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 0 0 0 0]    |   [1 1 1 1 0 0 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 0 0 0 0]
+hijoB:  [1 1 1 1 0 0 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 0 1 1 0]
+Padre 2:  [1 1 1 1 0 0 0 0]
+
+Menor 0.8 que  0.9260803495695519 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 0 1 1 0]   |  [1 1 1 1 0 0 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 0 1 0]    |   [1 1 1 1 0 0 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 0 1 0]
+hijoB no factible:  [1 1 1 1 0 0 0 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 436.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -5.0}
+Resultado de la evaluación de fitness: 4.00000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -5.0}
+Resultado de la evaluación de fitness: 4.00000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 305.000000000000
+
+nueva poblacion al terminar iteracion: 0 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 1 1 0 0 0 0]
+ [1 1 1 1 0 0 0 0]
+ [1 1 1 1 1 0 1 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 0 0 1 1 1 1] |  {'x': 3.0, 'y': 5.0} |       436.0        |       436.0        |    0.582     |   0.582   |     True    |
+|     2     | [1 1 1 1 0 0 0 0] |  {'x': 3.0, 'y': 5.0} | 4.0000000000000036 | 4.0000000000000036 |    0.005     |   0.587   |     True    |
+|     3     | [1 1 1 1 0 0 0 0] | {'x': 5.0, 'y': -5.0} | 4.0000000000000036 | 4.0000000000000036 |    0.005     |   0.593   |     True    |
+|     4     | [1 1 1 1 1 0 1 0] | {'x': 5.0, 'y': -5.0} |       305.0        |       305.0        |    0.407     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  1 
+
+Poblacion de la Iteracion  1 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 1 1 0 0 0 0]
+ [1 1 1 1 0 0 0 0]
+ [1 1 1 1 1 0 1 0]]
+El mejor individuo es: [1 1 0 0 1 1 1 1]
+El mejor fitness es: 436.0
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 0 1 0]
+Padre 2:  [1 1 0 0 1 1 1 1]
+
+Mas grande 0.8 que  0.33595617432960234 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 0 1 0]
+Hijo 2:  [1 1 0 0 1 1 1 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 0 1 0]
+Hijo 2:  [1 1 0 0 1 1 1 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 0 1 0]   |  [1 1 0 0 1 1 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 0 1 1 1 1 0]    |   [1 1 0 0 1 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 0 1 1 1 1 0]
+hijoB:  [1 1 0 0 1 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 0 1 0]
+Padre 2:  [1 1 1 1 1 0 1 0]
+
+Mas grande 0.8 que  0.785754619260124 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 0 1 0]
+Hijo 2:  [1 1 1 1 1 0 1 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 0 1 0]
+Hijo 2:  [1 1 1 1 1 0 1 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 0 1 0]   |  [1 1 1 1 1 0 1 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 0 1 0]    |   [1 1 0 1 1 1 1 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 0 1 0]
+hijoB no factible:  [1 1 0 1 1 1 1 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 436.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 410.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 272.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 305.000000000000
+
+nueva poblacion al terminar iteracion: 1 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 0 1 1 1 1 0]
+ [1 1 0 0 1 1 0 0]
+ [1 1 1 1 1 0 1 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 0 0 1 1 1 1] | {'x': 3.0, 'y': 5.0} |       436.0        |       436.0        |    0.306     |   0.306   |     True    |
+|     2     | [1 1 0 1 1 1 1 0] | {'x': 3.0, 'y': 5.0} |       410.0        |       410.0        |    0.288     |   0.595   |     True    |
+|     3     | [1 1 0 0 1 1 0 0] | {'x': 4.0, 'y': 4.0} | 272.00000000000006 | 272.00000000000006 |    0.191     |   0.786   |     True    |
+|     4     | [1 1 1 1 1 0 1 0] | {'x': 4.0, 'y': 4.0} |       305.0        |       305.0        |    0.214     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  2 
+
+Poblacion de la Iteracion  2 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 0 1 1 1 1 0]
+ [1 1 0 0 1 1 0 0]
+ [1 1 1 1 1 0 1 0]]
+El mejor individuo es: [1 1 0 0 1 1 1 1]
+El mejor fitness es: 436.0
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 0 0 1 1 1 1]
+Padre 2:  [1 1 0 0 1 1 0 0]
+
+Menor 0.8 que  0.9721535772106848 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 0 0 1 1 1 1]   |  [1 1 0 0 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 1 0 1]    |   [1 1 0 0 1 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 1 0 1]
+hijoB:  [1 1 0 0 1 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.39799162892705253 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 0 1 0 1]    |   [1 1 1 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 0 1 0 1]
+hijoB no factible:  [1 1 1 1 1 1 0 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 436.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 3.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 272.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 73.0000000000000
+
+nueva poblacion al terminar iteracion: 2 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 0 0 1 1 0 0]
+ [1 1 1 1 0 1 0 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 0 0 1 1 1 1] | {'x': 3.0, 'y': 5.0} |       436.0        |       436.0        |    0.345     |   0.345   |     True    |
+|     2     | [1 1 1 1 1 1 0 1] | {'x': 3.0, 'y': 5.0} | 480.99999999999994 | 480.99999999999994 |    0.381     |   0.727   |     True    |
+|     3     | [1 1 0 0 1 1 0 0] | {'x': 5.0, 'y': 4.0} | 272.00000000000006 | 272.00000000000006 |    0.216     |   0.942   |     True    |
+|     4     | [1 1 1 1 0 1 0 1] | {'x': 5.0, 'y': 4.0} | 73.00000000000001  | 73.00000000000001  |    0.058     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  3 
+
+Poblacion de la Iteracion  3 
+ [[1 1 0 0 1 1 1 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 0 0 1 1 0 0]
+ [1 1 1 1 0 1 0 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.7964497698783471 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 0 1 1 1 1 0 1]    |   [1 1 0 1 1 0 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 0 1 1 1 1 0 1]
+hijoB:  [1 1 0 1 1 0 1 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Menor 0.8 que  0.8577083839721675 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 0 1 1]    |   [1 1 1 1 1 0 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 0 1 1]
+hijoB no factible:  [1 1 1 1 1 0 1 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 2.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 298.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 250.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 305.000000000000
+
+nueva poblacion al terminar iteracion: 3 
+ [[1 1 1 1 1 1 0 1]
+ [1 0 1 1 1 1 0 1]
+ [1 1 0 1 1 0 1 1]
+ [1 1 1 1 1 0 1 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.361     |   0.361   |     True    |
+|     2     | [1 0 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} |       298.0        |       298.0        |    0.223     |   0.584   |     True    |
+|     3     | [1 1 0 1 1 0 1 1] | {'x': 2.0, 'y': 4.0} | 250.00000000000003 | 250.00000000000003 |    0.187     |   0.771   |     True    |
+|     4     | [1 1 1 1 1 0 1 1] | {'x': 2.0, 'y': 4.0} |       305.0        |       305.0        |    0.229     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  4 
+
+Poblacion de la Iteracion  4 
+ [[1 1 1 1 1 1 0 1]
+ [1 0 1 1 1 1 0 1]
+ [1 1 0 1 1 0 1 1]
+ [1 1 1 1 1 0 1 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 0 1 1 0 1 1]
+Padre 2:  [1 1 1 1 1 0 1 1]
+
+Menor 0.8 que  0.8887037354267219 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 0 1 1 0 1 1]   |  [1 1 1 1 1 0 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 0 1 0 1 1]    |   [1 1 1 0 1 0 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 0 1 0 1 1]
+hijoB:  [1 1 1 0 1 0 1 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.019524239932417253 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 1 0 1]    |   [1 0 0 0 1 1 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 1 0 1]
+hijoB no factible:  [1 0 0 0 1 1 1 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 250.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 250.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+
+nueva poblacion al terminar iteracion: 4 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 0 1 0 1 1]
+ [1 1 1 0 1 0 1 1]
+ [1 1 1 1 1 1 0 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.329     |   0.329   |     True    |
+|     2     | [1 1 1 0 1 0 1 1] | {'x': 5.0, 'y': 4.0} | 250.00000000000003 | 250.00000000000003 |    0.171     |   0.500   |     True    |
+|     3     | [1 1 1 0 1 0 1 1] | {'x': 4.0, 'y': 2.0} | 250.00000000000003 | 250.00000000000003 |    0.171     |   0.671   |     True    |
+|     4     | [1 1 1 1 1 1 0 1] | {'x': 4.0, 'y': 2.0} | 480.99999999999994 | 480.99999999999994 |    0.329     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  5 
+
+Poblacion de la Iteracion  5 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 0 1 0 1 1]
+ [1 1 1 0 1 0 1 1]
+ [1 1 1 1 1 1 0 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 0 1 0 1 1]
+
+Mas grande 0.8 que  0.11351219259859902 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 0 1 0 1 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 0 1 0 1 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 0 1 0 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 0 1 0 0 1 0 1]    |   [1 1 1 1 1 0 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 0 1 0 0 1 0 1]
+hijoB:  [1 1 1 1 1 0 1 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 0 1 0 1 1]
+
+Mas grande 0.8 que  0.5688737564526158 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 0 1 0 1 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 0 1 0 1 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 0 1 0 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 0 1 1 1 0 0 1]    |   [1 1 1 0 1 1 1 1]    |
++------------------------+------------------------+
+hijoA:  [0 0 1 1 1 0 0 1]
+hijoB no factible:  [1 1 1 0 1 1 1 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 2.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 34.0000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 305.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -3.0, 'y': 1.0}
+Resultado de la evaluación de fitness: 136.000000000000
+
+nueva poblacion al terminar iteracion: 5 
+ [[1 1 1 1 1 1 0 1]
+ [1 0 1 0 0 1 0 1]
+ [1 1 1 1 1 0 1 1]
+ [0 0 1 1 1 0 0 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.503     |   0.503   |     True    |
+|     2     | [1 0 1 0 0 1 0 1] |  {'x': 5.0, 'y': 4.0} |        34.0        |        34.0        |    0.036     |   0.539   |     True    |
+|     3     | [1 1 1 1 1 0 1 1] | {'x': 2.0, 'y': -2.0} |       305.0        |       305.0        |    0.319     |   0.858   |     True    |
+|     4     | [0 0 1 1 1 0 0 1] | {'x': 2.0, 'y': -2.0} | 135.99999999999997 | 135.99999999999997 |    0.142     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  6 
+
+Poblacion de la Iteracion  6 
+ [[1 1 1 1 1 1 0 1]
+ [1 0 1 0 0 1 0 1]
+ [1 1 1 1 1 0 1 1]
+ [0 0 1 1 1 0 0 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.1666659601549233 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 1 0 1]    |   [1 1 1 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 1 0 1]
+hijoB:  [1 1 1 1 1 1 0 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 0 1 1]
+
+Menor 0.8 que  0.9876577233132103 -> NO Cruzan
+
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 0 1 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 1 0 1]    |   [1 0 1 1 1 1 1 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 1 0 1]
+hijoB no factible:  [1 0 1 1 1 1 1 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+
+nueva poblacion al terminar iteracion: 6 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.250     |   0.250   |     True    |
+|     2     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.250     |   0.500   |     True    |
+|     3     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.250     |   0.750   |     True    |
+|     4     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.250     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  7 
+
+Poblacion de la Iteracion  7 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 0 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.5423470645125119 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 0 1 0 1]    |   [1 1 0 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 0 1 0 1]
+hijoB:  [1 1 0 1 1 1 0 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.5537615492802695 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 1 0 1 1 1 1 1]    |   [1 1 1 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [0 1 0 1 1 1 1 1]
+hijoB no factible:  [1 1 1 1 1 1 0 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 73.0000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 410.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -2.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 241.000000000000
+
+nueva poblacion al terminar iteracion: 7 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 1 0 1 0 1]
+ [1 1 0 1 1 1 0 1]
+ [0 1 0 1 1 1 1 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.399     |   0.399   |     True    |
+|     2     | [1 1 1 1 0 1 0 1] |  {'x': 5.0, 'y': 4.0} | 73.00000000000001  | 73.00000000000001  |    0.061     |   0.460   |     True    |
+|     3     | [1 1 0 1 1 1 0 1] | {'x': 5.0, 'y': -2.0} |       410.0        |       410.0        |    0.340     |   0.800   |     True    |
+|     4     | [0 1 0 1 1 1 1 1] | {'x': 5.0, 'y': -2.0} |       241.0        |       241.0        |    0.200     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  8 
+
+Poblacion de la Iteracion  8 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 1 0 1 0 1]
+ [1 1 0 1 1 1 0 1]
+ [0 1 0 1 1 1 1 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [0 1 0 1 1 1 1 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.6564414527213914 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [0 1 0 1 1 1 1 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [0 1 0 1 1 1 1 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [0 1 0 1 1 1 1 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 0 1 1 0 1 1 1]    |   [1 1 1 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [0 0 1 1 0 1 1 1]
+hijoB:  [1 1 1 1 1 1 0 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 0 1 0 1]
+Padre 2:  [1 1 1 1 0 1 0 1]
+
+Mas grande 0.8 que  0.7552652476270363 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 0 1 0 1]
+Hijo 2:  [1 1 1 1 0 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 0 1 0 1]
+Hijo 2:  [1 1 1 1 0 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 0 1 0 1]   |  [1 1 1 1 0 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 0 0 0 0 1 0 0]    |   [1 1 1 1 0 1 1 1]    |
++------------------------+------------------------+
+hijoA:  [0 0 0 0 0 1 0 0]
+hijoB no factible:  [1 1 1 1 0 1 1 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -3.0, 'y': -0.0}
+Resultado de la evaluación de fitness: 137.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -5.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 293.000000000000
+
+nueva poblacion al terminar iteracion: 8 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 0 1 1 1]
+ [1 1 1 1 1 1 0 1]
+ [0 0 0 0 0 1 0 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+------------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables     |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+------------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0}  | 480.99999999999994 | 480.99999999999994 |    0.346     |   0.346   |     True    |
+|     2     | [0 0 1 1 0 1 1 1] |  {'x': 5.0, 'y': 4.0}  |       137.0        |       137.0        |    0.098     |   0.444   |     True    |
+|     3     | [1 1 1 1 1 1 0 1] | {'x': -3.0, 'y': -0.0} | 480.99999999999994 | 480.99999999999994 |    0.346     |   0.790   |     True    |
+|     4     | [0 0 0 0 0 1 0 0] | {'x': -3.0, 'y': -0.0} | 292.99999999999994 | 292.99999999999994 |    0.210     |   1.000   |     True    |
++-----------+-------------------+------------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  9 
+
+Poblacion de la Iteracion  9 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 0 1 1 1]
+ [1 1 1 1 1 1 0 1]
+ [0 0 0 0 0 1 0 0]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.08228088744166795 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 0 1 1 0 0 1]    |   [1 1 1 1 1 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 0 1 1 0 0 1]
+hijoB:  [1 1 1 1 1 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.20909917815864054 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 0 1 1 1]    |   [1 1 1 0 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 0 1 1 1]
+hijoB no factible:  [1 1 1 0 1 1 0 1]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 1.0}
+Resultado de la evaluación de fitness: 185.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 388.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': -0.0}
+Resultado de la evaluación de fitness: 169.000000000000
+
+nueva poblacion al terminar iteracion: 9 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 0 1 1 0 0 1]
+ [1 1 1 1 1 1 0 0]
+ [1 1 1 1 0 1 1 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.393     |   0.393   |     True    |
+|     2     | [1 1 0 1 1 0 0 1] | {'x': 5.0, 'y': 4.0} | 185.00000000000003 | 185.00000000000003 |    0.151     |   0.545   |     True    |
+|     3     | [1 1 1 1 1 1 0 0] | {'x': 4.0, 'y': 1.0} |       388.0        |       388.0        |    0.317     |   0.862   |     True    |
+|     4     | [1 1 1 1 0 1 1 1] | {'x': 4.0, 'y': 1.0} |       169.0        |       169.0        |    0.138     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  10 
+
+Poblacion de la Iteracion  10 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 0 1 1 0 0 1]
+ [1 1 1 1 1 1 0 0]
+ [1 1 1 1 0 1 1 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 0]
+Padre 2:  [1 1 1 1 1 1 0 0]
+
+Mas grande 0.8 que  0.5429765667048662 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 0]
+Hijo 2:  [1 1 1 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 0]
+Hijo 2:  [1 1 1 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 0]   |  [1 1 1 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 0 1 1 1 0 0]    |   [1 1 0 1 1 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 0 1 1 1 0 0]
+hijoB:  [1 1 0 1 1 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 0]
+
+Mas grande 0.8 que  0.4790228206610837 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 1 1 1 1 0 0 0]    |   [1 1 1 1 1 1 1 0]    |
++------------------------+------------------------+
+hijoA:  [0 1 1 1 1 0 0 0]
+hijoB no factible:  [1 1 1 1 1 1 1 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 325.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 325.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -0.0, 'y': 0.0}
+Resultado de la evaluación de fitness: 74.0000000000000
+
+nueva poblacion al terminar iteracion: 10 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 0 1 1 1 0 0]
+ [1 1 0 1 1 1 0 0]
+ [0 1 1 1 1 0 0 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.399     |   0.399   |     True    |
+|     2     | [1 1 0 1 1 1 0 0] | {'x': 5.0, 'y': 4.0} |       325.0        |       325.0        |    0.270     |   0.669   |     True    |
+|     3     | [1 1 0 1 1 1 0 0] | {'x': 4.0, 'y': 3.0} |       325.0        |       325.0        |    0.270     |   0.939   |     True    |
+|     4     | [0 1 1 1 1 0 0 0] | {'x': 4.0, 'y': 3.0} |        74.0        |        74.0        |    0.061     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  11 
+
+Poblacion de la Iteracion  11 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 0 1 1 1 0 0]
+ [1 1 0 1 1 1 0 0]
+ [0 1 1 1 1 0 0 0]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 0 1 1 1 0 0]
+
+Mas grande 0.8 que  0.13537754865210272 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 0 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 0 1 1 1 1 0 1]    |   [1 1 0 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [0 0 1 1 1 1 0 1]
+hijoB:  [1 1 0 1 1 1 0 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 0 1 1 1 0 0]
+Padre 2:  [1 1 0 1 1 1 0 0]
+
+Mas grande 0.8 que  0.022022449458741544 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 0 1 1 1 0 0]
+Hijo 2:  [1 1 0 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 0 1 1 1 0 0]
+Hijo 2:  [1 1 0 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 0 1 1 1 0 0]   |  [1 1 0 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 0 1 1 1 0 0]    |   [1 0 0 0 1 0 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 0 1 1 1 0 0]
+hijoB no factible:  [1 0 0 0 1 0 0 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -3.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 193.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 410.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 325.000000000000
+
+nueva poblacion al terminar iteracion: 11 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 1 1 0 1]
+ [1 1 0 1 1 1 0 1]
+ [1 1 0 1 1 1 0 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.341     |   0.341   |     True    |
+|     2     | [0 0 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} |       193.0        |       193.0        |    0.137     |   0.478   |     True    |
+|     3     | [1 1 0 1 1 1 0 1] | {'x': -3.0, 'y': 4.0} |       410.0        |       410.0        |    0.291     |   0.769   |     True    |
+|     4     | [1 1 0 1 1 1 0 0] | {'x': -3.0, 'y': 4.0} |       325.0        |       325.0        |    0.231     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  12 
+
+Poblacion de la Iteracion  12 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 1 1 0 1]
+ [1 1 0 1 1 1 0 1]
+ [1 1 0 1 1 1 0 0]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [0 0 1 1 1 1 0 1]
+Padre 2:  [1 1 0 1 1 1 0 1]
+
+Mas grande 0.8 que  0.5364068994220726 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [0 0 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [0 0 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [0 0 1 1 1 1 0 1]   |  [1 1 0 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 0 1 1 1 1 0 1]    |   [1 1 0 1 0 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [0 0 1 1 1 1 0 1]
+hijoB:  [1 1 0 1 0 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 0 1 1 1 0 0]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.6747008124375644 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 0 1 1 1 0 0]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 0 1 1 1 0 0]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 0 1 1 1 0 0]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 0 1 1 1 0 0]    |   [0 1 0 1 0 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 0 1 1 1 0 0]
+hijoB no factible:  [0 1 0 1 0 1 0 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -3.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 193.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 50.0000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 3.0}
+Resultado de la evaluación de fitness: 325.000000000000
+
+nueva poblacion al terminar iteracion: 12 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 1 1 0 1]
+ [1 1 0 1 0 1 0 0]
+ [1 1 0 1 1 1 0 0]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.459     |   0.459   |     True    |
+|     2     | [0 0 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} |       193.0        |       193.0        |    0.184     |   0.643   |     True    |
+|     3     | [1 1 0 1 0 1 0 0] | {'x': -3.0, 'y': 4.0} |        50.0        |        50.0        |    0.048     |   0.690   |     True    |
+|     4     | [1 1 0 1 1 1 0 0] | {'x': -3.0, 'y': 4.0} |       325.0        |       325.0        |    0.310     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  13 
+
+Poblacion de la Iteracion  13 
+ [[1 1 1 1 1 1 0 1]
+ [0 0 1 1 1 1 0 1]
+ [1 1 0 1 0 1 0 0]
+ [1 1 0 1 1 1 0 0]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [0 0 1 1 1 1 0 1]
+Padre 2:  [1 1 0 1 1 1 0 0]
+
+Mas grande 0.8 que  0.3144314100218445 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [0 0 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [0 0 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [0 0 1 1 1 1 0 1]   |  [1 1 0 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [0 1 1 1 1 1 0 1]    |   [0 1 1 1 0 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [0 1 1 1 1 1 0 1]
+hijoB:  [0 1 1 1 0 1 0 0]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 0 1 1 1 0 0]
+
+Mas grande 0.8 que  0.35865150120865685 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 0 1 1 1 0 0]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 0 1 1 1 0 0]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 0 1 1 1 0 1 1]    |   [1 1 0 1 1 1 0 0]    |
++------------------------+------------------------+
+hijoA:  [1 0 1 1 1 0 1 1]
+hijoB no factible:  [1 1 0 1 1 1 0 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -0.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 226.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': -0.0, 'y': -2.0}
+Resultado de la evaluación de fitness: 58.0000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 2.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 170.000000000000
+
+nueva poblacion al terminar iteracion: 13 
+ [[1 1 1 1 1 1 0 1]
+ [0 1 1 1 1 1 0 1]
+ [0 1 1 1 0 1 0 0]
+ [1 0 1 1 1 0 1 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |    valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.514     |   0.514   |     True    |
+|     2     | [0 1 1 1 1 1 0 1] |  {'x': 5.0, 'y': 4.0} |       226.0        |       226.0        |    0.242     |   0.756   |     True    |
+|     3     | [0 1 1 1 0 1 0 0] | {'x': -0.0, 'y': 4.0} |        58.0        |        58.0        |    0.062     |   0.818   |     True    |
+|     4     | [1 0 1 1 1 0 1 1] | {'x': -0.0, 'y': 4.0} |       170.0        |       170.0        |    0.182     |   1.000   |     True    |
++-----------+-------------------+-----------------------+--------------------+--------------------+--------------+-----------+-------------+
+
+ Iteracion  14 
+
+Poblacion de la Iteracion  14 
+ [[1 1 1 1 1 1 0 1]
+ [0 1 1 1 1 1 0 1]
+ [0 1 1 1 0 1 0 0]
+ [1 0 1 1 1 0 1 1]]
+El mejor individuo es: [1 1 1 1 1 1 0 1]
+El mejor fitness es: 480.99999999999994
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 0 1 1 1 0 1 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.2021295720755628 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 0 1 1 1 0 1 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 0 1 1 1 0 1 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 0 1 1 1 0 1 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 0 1 0 1 1]    |   [1 1 1 1 1 1 0 1]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 0 1 0 1 1]
+hijoB:  [1 1 1 1 1 1 0 1]
+
+seleccion de padres por:  ruleta
+
+seleccion de padres por:  ruleta
+
+padres sin cruzarsen entre si:
+
+Padre 1:  [1 1 1 1 1 1 0 1]
+Padre 2:  [1 1 1 1 1 1 0 1]
+
+Mas grande 0.8 que  0.6197203277196844 -> Si Cruzan
+
+
+hijos después de cruzarse entre sí:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
+
+hijos despues de cruzarse entre si:
+
+Hijo 1:  [1 1 1 1 1 1 0 1]
+Hijo 2:  [1 1 1 1 1 1 0 1]
++----------------------+----------------------+
+| hijoA antes de mutar | hijoB antes de mutar |
++----------------------+----------------------+
+|  [1 1 1 1 1 1 0 1]   |  [1 1 1 1 1 1 0 1]   |
++----------------------+----------------------+
++------------------------+------------------------+
+| hijoA despues de mutar | hijoB despues de mutar |
++------------------------+------------------------+
+|   [1 1 1 1 1 1 1 1]    |   [1 1 1 1 1 0 1 0]    |
++------------------------+------------------------+
+hijoA:  [1 1 1 1 1 1 1 1]
+hijoB no factible:  [1 1 1 1 1 0 1 0]
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 4.0, 'y': 2.0}
+Resultado de la evaluación de fitness: 250.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 4.0}
+Resultado de la evaluación de fitness: 481.000000000000
+Expresion objetivo:  ((x+(2*y)+7)**2 ) + (((2*x)+y-5)**2)
+Expresion objetivo transformada:  (x + 2*y + 7)**2 + (2*x + y - 1*5)**2
+valor de variable_values:  {'x': 5.0, 'y': 5.0}
+Resultado de la evaluación de fitness: 584.000000000000
+
+nueva poblacion al terminar iteracion: 14 
+ [[1 1 1 1 1 1 0 1]
+ [1 1 1 0 1 0 1 1]
+ [1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 1 1]]
+
+ Tabla Iteracion: 
+
+valor de desplzamiento como tratamiento de negativos, constante de desplazamiento 1
+valor de desplazamiento:  0
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+| Individuo |     Cromosoma     |   valor variables    |      Fitness       | Fitness desplazado | Probabilidad | Acumulada | restriccion |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+
+|     1     | [1 1 1 1 1 1 0 1] | {'x': 5.0, 'y': 4.0} | 480.99999999999994 | 480.99999999999994 |    0.268     |   0.268   |     True    |
+|     2     | [1 1 1 0 1 0 1 1] | {'x': 5.0, 'y': 4.0} | 250.00000000000003 | 250.00000000000003 |    0.139     |   0.407   |     True    |
+|     3     | [1 1 1 1 1 1 0 1] | {'x': 4.0, 'y': 2.0} | 480.99999999999994 | 480.99999999999994 |    0.268     |   0.675   |     True    |
+|     4     | [1 1 1 1 1 1 1 1] | {'x': 4.0, 'y': 2.0} |       584.0        |       584.0        |    0.325     |   1.000   |     True    |
++-----------+-------------------+----------------------+--------------------+--------------------+--------------+-----------+-------------+

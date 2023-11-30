@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from genetico.Algoritmo_Genetico import GeneticAlgorit as ga
+from Algoritmo_Genetico import GeneticAlgorit as ga
 
 data = pd.read_csv(
     'D:/UNAL/Semestre 7/Sistemas sinteligentes computacionales/1 Todo lo necesario entrega de proyecto/caesarian.csv')
@@ -130,7 +130,7 @@ if restriccion:
     
     instancia = ga(n, Pcruce, Pmuta, generaciones, xRestringe, xObjetivo, infVariables,
                 elitismo, activarConvergencia, valConvergencia, restriccion,
-                acMaxMin, maximizar, tipoDeSeleccion)
+                acMaxMin, maximizar, tipoDeSeleccion,methodoCruce='basico')
     instancia.ejecutar()
     # Obtener los valores del diccionario
     # valores = list(ga.get_mejoresIndividuos().values())
